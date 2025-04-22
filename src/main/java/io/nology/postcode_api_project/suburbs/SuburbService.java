@@ -45,9 +45,7 @@ public class SuburbService {
     }
 
     public List<Suburb> getAllSuburbs() {
-    
-            return this.suburbRepo.findAll();
-        
+         return this.suburbRepo.findAll();
     
     }
 }
